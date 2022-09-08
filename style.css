@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+span{
+  font-size: 30px;
+  position: fixed;
+  top:0;
+}
+p{
+  width: 100%;
+  font-family: "Arial";
+  padding: 0.125em;
+  transform: rotate(-10deg);
+  text-align: center;
+}
+.office-banner {
+  background-color: #009688;
+  color: white;
+  font-family: "Arial";
+  padding: 0.125em;
+  font-size: 3em;
+  text-align: center;
+  white-space: nowrap;
+  transform: rotate(-10deg);
+  position: fixed;
+  top: 40%;
+  left: -5%;
+  right: -5%;
+  z-index: 100;
+  margin-top: 0;
+}
+@media only screen and (min-width: 600px) {
+  p{
+    font-size: 30px;
+  }
+}
